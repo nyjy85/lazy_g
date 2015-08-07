@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '.', '-g' ]
+2 info using npm@2.12.1
+3 info using node@v0.12.0
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ '.', null ]
+7 verbose cache add spec .
+8 silly cache add parsed spec { raw: '.',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: '.',
+8 silly cache add   spec: '/Users/joanne/apps/generator',
+8 silly cache add   type: 'directory' }
+9 verbose addLocalDirectory /Users/joanne/.npm/lazy_g/1.0.0/package.tgz not in flight; packing
+10 verbose tar pack [ '/Users/joanne/.npm/lazy_g/1.0.0/package.tgz',
+10 verbose tar pack   '/Users/joanne/apps/generator' ]
+11 verbose tarball /Users/joanne/.npm/lazy_g/1.0.0/package.tgz
+12 verbose folder /Users/joanne/apps/generator
+13 info prepublish lazy_g@1.0.0
+14 verbose stack TypeError: Cannot read property 'main' of undefined
+14 verbose stack     at Packer.applyIgnores (/usr/local/lib/node_modules/npm/node_modules/fstream-npm/fstream-npm.js:108:30)
+14 verbose stack     at Packer.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/ignore.js:61:15)
+14 verbose stack     at Packer.emit (events.js:110:17)
+14 verbose stack     at FileReader.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-reader.js:131:12)
+14 verbose stack     at FileReader.emit (events.js:107:17)
+14 verbose stack     at go (/usr/local/lib/node_modules/npm/node_modules/fstream/lib/reader.js:216:12)
+14 verbose stack     at go (/usr/local/lib/node_modules/npm/node_modules/fstream/lib/reader.js:217:7)
+14 verbose stack     at statCb (/usr/local/lib/node_modules/npm/node_modules/fstream/lib/reader.js:218:7)
+14 verbose stack     at FSReqWrap.oncomplete (evalmachine.<anonymous>:99:15)
+15 verbose cwd /Users/joanne/apps/generator
+16 error Darwin 14.0.0
+17 error argv "node" "/usr/local/bin/npm" "install" "." "-g"
+18 error node v0.12.0
+19 error npm  v2.12.1
+20 error Cannot read property 'main' of undefined
+21 error If you need help, you may report this error at:
+21 error     <https://github.com/npm/npm/issues>
+22 verbose exit [ 1, true ]
