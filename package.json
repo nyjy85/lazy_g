@@ -1,24 +1,22 @@
 {
   "name": "lazy_g",
   "version": "1.0.0",
-  "description": "A file generator for practicing Angular",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "An incredibly simple angular file generator that contains the bare necessities to quick-start your angular practice",
+  "bin": {
+    "lazy_g": "bin/lazy_g"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nyjy85/lazy_g.git"
   },
-  "author": "Joanne Yae <yae.joanne@gmail.com> (http://github.com/nyjy85)",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nyjy85/lazy_g/issues"
-  },
-  "homepage": "https://github.com/nyjy85/lazy_g#readme",
   "dependencies": {
-    "angular": "^1.4.3",
-    "angular-ui-bootstrap": "^0.13.2",
-    "bootstrap": "^3.3.5",
-    "ui-router": "0.0.1"
+    "bluebird": "^2.9.34",
+    "chalk": "^1.1.0",
+    "ncp": "^2.0.0"
+  },
+  "author": {
+    "name": "Joanne Yae", 
+    "email": "yae.joanne@gmail.com"
   }
 }
